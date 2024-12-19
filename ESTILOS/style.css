@@ -80,6 +80,22 @@ header div.social-icons{
     gap: 10px;
 }
 
+.social-icons ul li{
+    list-style: none;
+    background: var(--cor-fundo);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+    
+}
+
+.social-icons img{
+    width: 30px;
+    height: auto;
+    -webkit-text-stroke: 2px var(--color);
+}
+
 .social-icons a {
     text-decoration: none;
     margin: 10px;
