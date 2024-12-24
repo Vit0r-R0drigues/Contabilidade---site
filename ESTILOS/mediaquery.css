@@ -1,4 +1,54 @@
 @charset "UTF-8";
 
-/* typical device width 
-*/
+/*Todas as demas midias*/
+
+/*typical device breakpoints
+Pequenas telas: ate 600px
+Celulares: de 600ps ate 768px
+Tablets: de 768px ate 992px
+Desktops: de 992px ate 1200px
+Grandes telas : maior que 1200px*/
+
+@media print {/*empressora*/
+    *{
+        font-family: 'courier new';
+    }
+
+    img#phone{display: none}
+    img#tablet{display: none}
+    img#impressora{display: none}
+    img#tv{display: none}
+    img#pc{display: none}
+} 
+
+@media screen and (min-width: 768px) and (max-width: 992px) 
+{/*tablet*/
+
+
+    img#phone{display: none}
+    img#tablet{display: none}
+    img#impressora{display: none}
+    img#tv{display: none}
+    img#pc{display: none}
+} 
+
+@media screen and (min-width: 992px) and (max-width: 1200px) 
+{/*desktop*/
+
+    
+    img#phone{display: none}
+    img#tablet{display: blnoneock}
+    img#impressora{display: none}
+    img#tv{display: none}
+    img#pc{display: none}
+}
+@media screen and (min-width: 1200px) 
+ {/*grandes telas*/
+   
+
+    img#phone{display: none}
+    img#tablet{display: none}
+    img#impressora{display: none}
+    img#tv{display: none}
+    img#pc{display: none}
+}
